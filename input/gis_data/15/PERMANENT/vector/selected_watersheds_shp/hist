@@ -1,0 +1,12 @@
+COMMAND: v.in.ogr --overwrite -o input="C:/Users/morit/AppData/Local/Temp/grassdata/mytemploc_utm32n/Basins_4.shp" layer="Basins_4" output="watersheds_shp" min_area=0.0 type="" snap=-1.0
+GISDBASE: C:\Users\morit\AppData\Local\Temp\grassdata\3255ab2a58817c5184a5a00ad9582a7f
+LOCATION: 15 MAPSET: PERMANENT USER: morit DATE: Fri Sep 24 12:26:19 2021
+-----------------------------------------------------
+350 input polygons
+Total area: 7.66743E+07 (477 areas)
+Overlapping area: 0 (0 areas)
+Area without category: 7.96797E+06 (127 areas)
+---------------------------------------------------------------------------------
+COMMAND: v.extract input="watersheds_shp" layer="Basins_4" type="point,line,boundary,centroid,area,face" where="pos_rank in (7, 9, 18, 19, 24, 26, 30, 36, 37, 42, 44, 48, 50, 51, 52, 53, 54, 59, 60, 62, 63, 64, 65, 66, 69, 72, 75, 76, 78, 80, 83, 84, 86, 92, 96, 102, 103, 111, 116, 119, 121, 122, 127, 131, 135, 141, 146, 148, 150, 152, 156, 164, 165, 168, 170, 173, 176, 177, 180, 181, 182, 186, 192, 193, 197, 203, 204, 205, 207, 211, 212, 216, 217, 219, 220, 225, 229, 231, 232, 238, 239, 240, 245, 247, 249, 252, 254, 257, 260, 266, 282, 285)" output="selected_watersheds_shp" new=-1
+GISDBASE: C:\Users\morit\AppData\Local\Temp\grassdata\3255ab2a58817c5184a5a00ad9582a7f
+LOCATION: 15 MAPSET: PERMANENT USER: morit DATE: Fri Sep 24 12:27:50 2021

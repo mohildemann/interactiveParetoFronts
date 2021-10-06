@@ -1,0 +1,3 @@
+COMMAND: v.in.ogr --overwrite -o input="C:/Users/morit/AppData/Local/Temp/grassdata/mytemploc_utm32n/contour_lines_with_watershed_id_enerata.shp" layer="contour_lines_with_watershed_id_enerata" output="contour_lines" min_area=0.0 type="" snap=-1.0
+GISDBASE: C:\Users\morit\AppData\Local\Temp\grassdata\3255ab2a58817c5184a5a00ad9582a7f
+LOCATION: 21 MAPSET: PERMANENT USER: morit DATE: Fri Sep 24 12:26:12 2021

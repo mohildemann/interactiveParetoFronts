@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite -o input="C:/Users/morit/AppData/Local/Temp/grassdata/mytemploc_utm32n/contour_lines_with_watershed_id_enerata.shp" layer="contour_lines_with_watershed_id_enerata" output="contour_lines" min_area=0.0 type="" snap=-1.0
+GISDBASE: C:\Users\morit\AppData\Local\Temp\grassdata\3255ab2a58817c5184a5a00ad9582a7f
+LOCATION: 18 MAPSET: PERMANENT USER: morit DATE: Fri Sep 24 12:26:13 2021
+---------------------------------------------------------------------------------
+COMMAND: v.extract input="contour_lines" layer="contour_lines_with_watershed_id_enerata" type="point,line,boundary,centroid,area,face" where="pos_rank in (9, 10, 18, 19, 24, 30, 32, 33, 36, 42, 48, 50, 51, 53, 59, 61, 62, 63, 64, 65, 66, 69, 75, 76, 78, 80, 83, 84, 86, 92, 96, 102, 103, 108, 111, 112, 116, 119, 120, 121, 123, 126, 127, 129, 131, 135, 139, 141, 146, 148, 149, 150, 152, 154, 156, 160, 162, 164, 165, 168, 170, 173, 176, 177, 181, 182, 184, 186, 189, 190, 192, 197, 203, 205, 207, 212, 216, 217, 218, 219, 220, 222, 225, 226, 229, 231, 232, 238, 239, 240, 245, 249, 252, 254, 257, 258, 260, 266, 282, 284)" output="selected_contour_lines_shp" new=-1
+GISDBASE: C:\Users\morit\AppData\Local\Temp\grassdata\3255ab2a58817c5184a5a00ad9582a7f
+LOCATION: 18 MAPSET: PERMANENT USER: morit DATE: Fri Sep 24 12:27:39 2021
